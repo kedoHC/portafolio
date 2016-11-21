@@ -1,0 +1,212 @@
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+a:link{
+	text-decoration: none;
+}
+/*<!-- ***************************
+************* Logo *************
+******************************-->*/
+#logo{
+	margin-top: 20px;
+	color: #EF4135;
+	font-weight: bold;
+	font-size: 18px;
+}
+#logo .text-logo-1, #logo .text-logo-2 {
+	padding-top: 70px;
+}
+#logo .text-logo-1 p:first-child, #logo .text-logo-2 p:first-child{
+	padding-top: 10px;
+	border-top: 1px solid #EF4135;
+}
+#logo .text-logo-1 p:last-child, #logo .text-logo-2 p:last-child{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #EF4135;
+}
+#logo .text-logo-1 p{
+	margin-bottom: 0px;
+	margin-bottom: 0px;
+	text-align: right;
+}
+#logo .text-logo-2 p{
+	margin-bottom: 0px;
+	margin-bottom: 0px;
+	text-align: left;
+} 
+/*<!-- ***************************
+************* Menu *************
+******************************-->*/
+#sello img{
+	
+	float: right;
+	position: absolute;
+	z-index: 1;
+}
+#menu{
+	height: 50px;
+	text-align: center;
+	margin-top: 20px;
+	/*background-color: #eee;*/
+}
+#menu .menu-item{
+	color: #EF4135;
+	font-size: 20px;
+	padding: 0px;
+	padding-top: 5px; 
+	font-weight: bold;
+}
+#menu .menu-item a{
+	color: #EF4135;
+}
+#menu .menu-item:hover{
+	color: #EF4135;
+	border-top: 5px solid #EF4135;	
+}
+/*<!-- ***************************
+****** Imagen Parallax 1**********
+******************************-->*/
+#parallax-1{
+	height: 400px;
+}
+/*<!-- ***************************
+****** La cocina Titulo **********
+******************************-->*/
+#la-cocina-titulo{
+	background-color: #215A9E;
+}
+#la-cocina-titulo h1{
+	color: #fff;
+	font-size: 45px;
+	font-weight: bold;
+}
+/*<!-- ***************************
+****** La cocina sellos **********
+******************************-->*/
+#sellos{
+	height: 400px;
+	padding-top: 50px;
+	margin-bottom: 50px;
+}
+#sellos p{
+	margin-top: 30px;
+	text-align: center;
+	color: #215A9E;
+	font-size: 18px;
+	font-weight: bold;
+}
+/*<!-- ***************************
+****** Imagen Parallax 1**********
+******************************-->*/
+#parallax-2{
+	height: 500px;
+}
+#parallax-2 h1, #parallax-2 h2{
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+}
+#parallax-2 h2{
+	font-family: 'Great Vibes', cursive;
+}
+#parallax-2 h1:first-child{
+	margin-top: 150px;
+}
+/*<!-- ***************************
+****** Que hay nuevo titulo *******
+******************************-->*/
+#nuevo-titulo{
+	background-color: #215A9E;
+}
+#nuevo-titulo h1{
+	color: #fff;
+	font-size: 45px;
+	font-weight: bold;
+}
+/*<!-- ***************************
+******** Que hay nuevo ************
+******************************-->*/
+#nuevo{
+	color: #EF4135;
+}
+#nuevo-2, #nuevo-3, #nuevo-1, #nuevo-4{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;	
+}
+#nuevo .row{
+	border-bottom: 2px solid #EF4135;
+}
+#nuevo-1 h2, #nuevo-4 h2, #nuevo-5 h2{
+	font-weight: bold;
+}
+#nuevo-1 h2:first-child, 
+#nuevo-4 h2:first-child, 
+#nuevo-5 h2:first-child{
+	margin-top: 50px;
+}
+#nuevo-1 p, #nuevo-4 p, #nuevo-5 p{
+	margin-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#nuevo-1 button, 
+#nuevo-4 button,
+#nuevo-5 button{
+	margin-top: 30px;
+	width: 150px;
+	border: 3px solid #EF4135;
+	box-shadow: none;
+	border-radius: 0px;
+	color: #EF4135;
+}
+.producto{
+	font-family: 'Great Vibes', cursive;
+}
+/*<!-- ***************************
+****** Que hay nuevo titulo *******
+******************************-->*/
+#galeria-titulo{
+	background-color: #215A9E;
+}
+#galeria-titulo h1{
+	color: #fff;
+	font-size: 45px;
+	font-weight: bold;
+}
+/*<!-- ***************************
+*********** Contacto *************
+******************************-->*/
+#contacto{
+	background-color: #215A9E; 
+	color: #fff;
+}
+#contacto h1{
+	font-weight: bold;
+	text-align: center;
+	font-size: 45px;
+}
+#contacto h3{
+	font-weight: bold;
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 30px;
+}
+#contacto input[type = "email"]{
+	font-size: 20px;
+	margin-top: 15px;
+
+}
+#contacto input[type = "submit"]{
+	border-radius: 0px;
+	width: 100px;
+	color: #215A9E; 
+	margin-top: 5px;
+}
+/*<!-- ***************************
+************* pie ****************
+******************************-->*/
+#pie{
+	padding-top: 20px;
+	color: #215A9E;
+}
